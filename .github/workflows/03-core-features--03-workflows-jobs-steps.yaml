@@ -28,3 +28,7 @@ jobs:
       - job-3
     steps:
       - run: echo "...to form a directed acyclic graph (DAG)"
+  job-5:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo "This is almost the final job in the workflow"

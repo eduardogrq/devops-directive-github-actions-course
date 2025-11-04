@@ -31,4 +31,5 @@ The time between writing and shipping software has shrunk drastically over the d
 | 2016 | **AWS CodeBuild** | Managed CI inside AWS ecosystem. |
 | 2018 | **GitHub Actions**| GitHub-native automation with deep ecosystem and community support. |
 
+
 ![](./readme-assets/ci-timeline.png)
