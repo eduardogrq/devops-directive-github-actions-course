@@ -35,3 +35,10 @@ jobs:
       - job-3
     steps:
       - run: echo "This is almost the final job in the workflow"
+  job-6:
+    runs-on: ubuntu-24.04
+    needs:
+      - job-4
+      - job-5
+    steps:
+      - run: echo "This is the final job in the workflow"
